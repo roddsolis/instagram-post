@@ -104,38 +104,16 @@ main {
   background-image: url("https://tinyurl.com/y56nuvp6");
 }
 
-#profileImg-2 {
-  background-image: url("https://tinyurl.com/2h6bjb4e");
-}
-
-#profileImg-3 {
-  background-image: url("https://tinyurl.com/2oe6y42v");
-}
-
-#profileImg-4 {
-  background-image: url("https://tinyurl.com/y6wofg5k");
-}
-
-.post__container__header__profileComponent__profileName,
-.post__container__header__profileComponent__profileTime,
-.post__container__header__profileComponent__profileFollow {
+.post__container__header__profileComponent__profileName {
   width: auto;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
-
-  &.post__container__header__profileComponent__profileTime {
-    color: rgb(173, 173, 173);
-    font-weight: 100;
-  }
-
-  &.post__container__header__profileComponent__profileName {
-    display: block;
-  }
 }
 
 .post__container__img {
   width: 468px;
-  height: 468px;
+  height: 360px;
   background-position: center;
   background-size: 468px;
   background-repeat: no-repeat;
@@ -146,18 +124,6 @@ main {
 
 #postImg-1 {
   background-image: url("https://tinyurl.com/2kcxvelg");
-}
-
-#postImg-2 {
-  background-image: url("https://tinyurl.com/2gcuskhn");
-}
-
-#postImg-3 {
-  background-image: url("https://tinyurl.com/2f8oatvt");
-}
-
-#postImg-4 {
-  background-image: url("https://tinyurl.com/2ftduf39");
 }
 
 .post__container__actions {
